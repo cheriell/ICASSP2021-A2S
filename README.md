@@ -9,8 +9,7 @@ Lele Liu, Veronica Morfi and Emmanouil Benetos, "Joint Multi-pitch Detection and
 This project uses pytorch and python 3, it's recommended you first create a python 3 virtual environment
 
     $ python3 -m venv ICASSP2021-A2S-ENV
-    $ cd ICASSP2021-A2S-ENV
-    $ source bin/activate
+    $ source ICASSP2021-A2S-ENV/bin/activate
     $ git clone https://github.com/cheriell/ICASSP-A2S
 
 Install the python packages required in this project
