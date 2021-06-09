@@ -3,9 +3,9 @@
 #################################################
 ### paths
 ### REMEMBER to change these path to where you save the dataset/feature/model!
-DATASET_FOLDER="/import/research_c4dm/ll307/MuseSyn"
-FEATURE_FOLDER="/import/c4dm-datasets/A2S_transcription/MuseSyn"
-MODEL_CHECKPOINT="/import/c4dm-datasets/A2S_transcription/working/icassp-a2s-draft/lightning_logs/version_14/checkpoints/epoch=4-valid_loss=208.58.ckpt"
+DATASET_FOLDER="dataset/folder"
+FEATURE_FOLDER="feature/folder"
+MODEL_CHECKPOINT="path/to/model_checkpoint.ckpt"
 
 
 #################################################
