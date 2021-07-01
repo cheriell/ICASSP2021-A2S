@@ -23,5 +23,5 @@ MODEL_CHECKPOINT="path/to/model_checkpoint.ckpt"
 #################################################
 ### Experiment 2. test different score representations
 ###
-### TBC in this month (June 2021)
+### TBC in July.
 
