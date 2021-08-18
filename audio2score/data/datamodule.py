@@ -1,5 +1,3 @@
-
-
 from typing import Any
 
 from audio2score.data.basedatamodule import BaseDataModule
