@@ -6,9 +6,9 @@
 # REMEMBER to change these paths to where you save the dataset/feature!
 # ALSO REMEMBER to change the paths to the model checkpoints before you run evaluation code.
 
-DATASET_FOLDER="/import/research_c4dm/ll307/MuseSyn"
-FEATURE_FOLDER="/import/c4dm-datasets/A2S_transcription/MuseSyn"
-MV2H_PATH="/import/c4dm-datasets/A2S_transcription/working/MV2H/bin"
+DATASET_FOLDER="path/to/MuseSyn"
+FEATURE_FOLDER="path/to/MuseSyn/features"
+MV2H_PATH="path/to/MV2H/bin"
 
 
 #################################################
