@@ -6,14 +6,23 @@ class Constants:
     input_length = int(segment_length * (1 / hop_time))  # model input length corresponds to segment length
     velocity_threshold = 30
 
+    spectrogram_max_length = 802
+    pianoroll_max_length = 401
+    score_max_length_reshaped = (100, 100)
+    score_max_length_lilypond = (437, 129)
+
     pianos = ['Gentleman', 'Giant', 'Grandeur', 'Maverick']
 
 class TrainingParam:
     learning_rate = 0.001
-    gamma = 0.9
     batch_size = 8
 
 class SpectrogramSetting(object):
+    """Spectrogram setting
+
+        refer to metadata/spectrogram_settings.csv for different parameters in experiment.
+        """
+        
     type = 'VQT'  # select from ['STFT', 'Mel', 'CQT', 'HCQT', 'VQT']
     win_length = 2048
     n_mels = 256

@@ -5,6 +5,7 @@ librosa==0.8.0
 matplotlib==3.4.0
 mido==1.2.9
 mir-eval==0.6
+music21==6.7.1
 numpy==1.19.1
 pandas==1.2.3
 pretty-midi==0.2.9

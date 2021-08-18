@@ -1,2 +1,4 @@
-lightning_logs/
+tensorboard_logs/
+metadata/cache/
+outputs/
 *__pycache__*
