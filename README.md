@@ -65,3 +65,7 @@ To train a joint transcrition model, run
 For evaluation, run
 
     python test.py joint --score_type "Reshaped" --MV2H_path path/to/MV2H/bin --dataset_folder path/to/MuseSyn --feature_folder path/to/MuseSyn/features --model_checkpoint model_checkpoint_file
+
+## Transcription output example
+
+An example set of Transcription output can be found in folder `output/scores_joint_transcription`.
