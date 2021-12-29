@@ -58,7 +58,7 @@ class BaseDataModule(pl.LightningDataModule):
                 # get information for each piece
                 midi_file = os.path.join(dataset_folder, 'midi', name+'.mid')
                 audio_file = os.path.join(dataset_folder, 'flac', piano, name+'.flac')
-                score_file = os.path.join(dataset_folder, 'mxl', name+'.mxl')
+                score_file = os.path.join(dataset_folder, 'xml', name+'.xml')
 
                 spectrograms_folder = os.path.join(feature_folder, 'spectrograms', piano, name)
                 pianoroll_file = os.path.join(feature_folder, 'pianoroll', name+'.pkl')
